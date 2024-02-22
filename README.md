@@ -4,7 +4,7 @@ Below are some Bugs Samples that I wrote working on previous projects.
 
 ---
 
-**Title:** favicon.ico:1 on Alba Iulia city hall website
+**Title:** Website icon not displayed 
 
 **Description:** The website of the Alba Iulia city hall is experiencing a 404 error related to the favicon.ico:1 resource. The website icon (favicon) is not displayed as expected. 
 
@@ -33,10 +33,24 @@ Below are some Bugs Samples that I wrote working on previous projects.
 **Actual result:** No error message or response is displayed when random characters are entered into the URL bar. \
 The website does not handle invalid URLs, potentially leading to confusion for users.
 
+---
+
+**Title:** Design bug - Text clipping issue on "iPhone SE" view
+
+**Description:** When selecting the iPhone SE view on the website, there is a design bug resulting in incomplete visibility of text. This issue is particularly noticeable when compared to the desktop (laptop) view, where the text is displayed correctly. The text appears to be truncated or clipped, impacting the overall readability and user experience on the iPhone SE.
+
+**Steps to reproduce:**
+1. Go to https://www.demoblaze.com/ on an iPhone SE device or select on the website "iPhone SE" view
+2. Select any product
+3. Observe the appearance of text on the screen.
+
+**Expected result:** Text should be fully visible and legible when using iPhone SE view
+
+**Actual result:** Text is partially visible when using iPhone SE view.
 
 ---
 
-**Title:** Innapropriate size images
+**Title:** Design bug - Innapropriate size images
 
 **Description:** The two images displayed are difficult to understand due to the wrong size.
 
@@ -52,6 +66,7 @@ The website does not handle invalid URLs, potentially leading to confusion for u
 ---
 
 
+Theoretical example
 
 **Title:** Login is not working properly
 
@@ -67,3 +82,4 @@ The website does not handle invalid URLs, potentially leading to confusion for u
 
 **Test data:** User: alina & Password: 123456
 
+---
